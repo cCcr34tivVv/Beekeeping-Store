@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:arial;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* for menu */
+.menu{
+    border-bottom: 2px solid #00a4ad;    
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fd9644;
+}
+
+.menu ul li a:hover{
+    color: #ad5011;
+}
+
+.utiliz_cont{
+    color: #0C98B0;
+    font-weight: bold;
+}
+
+/* for page title */
+.title-page{
+    width:80%;
+    text-align: center;
+    padding: 2%;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    border-right: 2px solid #00a4ad;
+    border-left: 2px solid #00a4ad;
+}
+
+/* for account showing */
+.show-account{
+    width:80%;
+    text-align: center;
+    padding: 2%;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    border-right: 2px solid #00a4ad;
+    border-left: 2px solid #00a4ad;
+    border-top: 2px solid #00a4ad;
+    border-bottom: 0px;
+}
+
+/* for content */
+.content{
+    width:84%;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-right: 2px solid #00a4ad;
+    border-left: 2px solid #00a4ad;
+    border-top: 2px solid #00a4ad;
+    border-bottom: 0px solid #00a4ad;
+}
+
+.content a{
+    color: #0C98B0;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.col-4{
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    flex:0 25%;
+    border-radius: 10px ;
+    border: 2px solid #fd9644;
+    color: #0C98B0;
+}
+/* for user accounts */
+
+.col-2{
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    flex: 1;
+}
+
+/* for log in and register forms */
+.input-form{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 0px 0px; 
+    
+}
+
+.input-box{
+    width: 200px;
+    margin: 10px;
+    height: 24px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+::placeholder{
+    font-size: 14px;
+}
+
+.input-button{
+    height: 30px;
+    font-size: 14px;
+    margin: 10px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+
+/* for footer */
+.footer{
+    border-top: 2px solid #00a4ad;
+    background-color: #fa8231;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.tb-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.label_input{
+    white-space: nowrap;
+}
+
+.img-responsive{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+
